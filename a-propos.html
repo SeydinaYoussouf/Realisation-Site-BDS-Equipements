@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À Propos | Quincaillerie Youuu</title>
+  <meta name="description" content="Découvrez l'histoire de la Quincaillerie Youuu, une entreprise familiale au service des bricoleurs et professionnels depuis 1985.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">BDS Equipements</span>
+          <span class="logo-tagline">Depuis 1985</span>
+        </div>
+      </a>
+      
+      <nav class="nav-desktop">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="produits.html" class="nav-link">Produits</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="a-propos.html" class="nav-link active">À propos</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"/>
+            <line x1="4" x2="20" y1="6" y2="6"/>
+            <line x1="4" x2="20" y1="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <nav class="nav-mobile" id="mobileMenu">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="produits.html" class="nav-link">Produits</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="a-propos.html" class="nav-link active">À propos</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <span class="section-badge">Notre histoire</span>
+      <h1 class="section-title">À Propos de Nous</h1>
+      <p class="section-description">Une entreprise familiale au service des bricoleurs et professionnels depuis 1985</p>
+    </div>
+  </section>
+
+  <!-- About Intro -->
+  <section class="section">
+    <div class="container">
+      <div class="about-intro">
+        <div class="about-image">
+          <img src="quinc1.jpg" alt="Intérieur de la quincaillerie">
+        </div>
+        <div class="about-text">
+          <h2>Notre Histoire</h2>
+          <p>Fondée en 1985 par Pierre Dupont, la BDS Equipements est née d'une passion pour le bricolage et d'une volonté d'offrir aux habitants du quartier un service de proximité de qualité.</p>
+          <p>Aujourd'hui, après plus de 40 ans d'activité, nous sommes devenus une référence incontournable pour les bricoleurs et les professionnels du bâtiment. Notre équipe de 15 collaborateurs passionnés perpétue les valeurs qui ont fait notre succès : expertise, conseil personnalisé et qualité de service.</p>
+          <p>De génération en génération, nous continuons à accompagner nos clients dans tous leurs projets, des plus simples aux plus ambitieux.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Notre parcours</span>
+        <h2 class="section-title">Les dates clés</h2>
+      </div>
+      
+      <div class="timeline" style="max-width: 600px; margin: 0 auto;">
+        <div class="timeline-item">
+          <div class="timeline-year">1985</div>
+          <div class="timeline-title">Création de l'entreprise</div>
+          <div class="timeline-description">Pierre Dupont ouvre la première boutique rue du Commerce</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">1995</div>
+          <div class="timeline-title">Premier agrandissement</div>
+          <div class="timeline-description">Extension du magasin et élargissement de la gamme de produits</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2005</div>
+          <div class="timeline-title">Transmission familiale</div>
+          <div class="timeline-description">Marie Dupont reprend la direction de l'entreprise</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2015</div>
+          <div class="timeline-title">Modernisation</div>
+          <div class="timeline-description">Rénovation complète et lancement des services en ligne</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2024</div>
+          <div class="timeline-title">40 ans d'excellence</div>
+          <div class="timeline-description">Célébration de quatre décennies au service de nos clients</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Nos valeurs</span>
+        <h2 class="section-title">Ce qui nous anime</h2>
+      </div>
+      
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <h3 class="value-title">Qualité</h3>
+          <p class="value-description">Nous sélectionnons rigoureusement nos produits pour vous garantir le meilleur rapport qualité-prix.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="value-title">Proximité</h3>
+          <p class="value-description">Une équipe disponible et à l'écoute, toujours prête à vous conseiller et vous accompagner.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+            </svg>
+          </div>
+          <h3 class="value-title">Expertise</h3>
+          <p class="value-description">Plus de 40 ans d'expérience au service de vos projets de bricolage et construction.</p>
+        </div>
+        
+        <div class="value-card">
+          <div class="value-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
+              <path d="m9 12 2 2 4-4"/>
+            </svg>
+          </div>
+          <h3 class="value-title">Fiabilité</h3>
+          <p class="value-description">Des engagements tenus et un service après-vente réactif pour votre tranquillité d'esprit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Notre équipe</span>
+        <h2 class="section-title">Les visages de Youssoupha</h2>
+        <p class="section-description">Une équipe passionnée et expérimentée à votre service</p>
+      </div>
+      
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-image">
+            <img src="../../../../Pictures/My_Pic/WhatsApp Image 2025-11-15 at 16.13.40_47d0e578.jpg" alt="Youssoupha Ndiaye">
+          </div>
+          <h3 class="team-name">Youssoupha Ndiaye</h3>
+          <p class="team-role">Directrice</p>
+          <p class="team-description">À la tête de l'entreprise depuis 2005, elle perpétue l'héritage familial.</p>
+        </div>
+        
+        <div class="team-card">
+          <div class="team-image">
+            <img src="../../../../Pictures/My_Pic/WhatsApp Image 2025-11-15 at 16.13.40_47d0e578.jpg" alt="Youssoupha Ndiaye">
+          </div>
+          <h3 class="team-name">Youssoupha Ndiaye</h3>
+          <p class="team-role">Responsable Outillage</p>
+          <p class="team-description">20 ans d'expérience dans l'outillage professionnel et électroportatif.</p>
+        </div>
+        
+        <div class="team-card">
+          <div class="team-image">
+            <img src="../../../../Pictures/My_Pic/WhatsApp Image 2025-11-15 at 16.13.40_47d0e578.jpg" alt="Youssoupha Ndiaye">
+          </div>
+          <h3 class="team-name">Youssoupha Ndiaye</h3>
+          <p class="team-role">Experte Électricité</p>
+          <p class="team-description">Spécialiste en installation électrique et domotique.</p>
+        </div>
+        
+        <div class="team-card">
+          <div class="team-image">
+            <img src="../../../../Pictures/My_Pic/WhatsApp Image 2025-11-15 at 16.13.40_47d0e578.jpg" alt="Youssoupha Ndiaye">
+          </div>
+          <h3 class="team-name">Youssoupha Ndiaye</h3>
+          <p class="team-role">Expert Plomberie</p>
+          <p class="team-description">15 ans d'expertise en plomberie et sanitaire.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Venez nous rencontrer</h2>
+        <p class="cta-description">Notre équipe vous accueille du lundi au samedi pour vous conseiller et vous accompagner dans vos projets.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-light btn-lg">Nous trouver</a>
+          <a href="contact.html" class="btn btn-outline-light btn-lg">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">BDS Equipements</span>
+              <span class="logo-tagline">Depuis 1985</span>
+            </div>
+          </a>
+          <p class="footer-description">Votre partenaire de confiance pour tous vos projets de bricolage et construction depuis plus de 40 ans.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Conseil expert</a></li>
+            <li><a href="services.html">Livraison</a></li>
+            <li><a href="services.html">Découpe sur mesure</a></li>
+            <li><a href="services.html">Devis gratuit</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>115 Yeumbeul Nord<br>Bene Barack</span>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>77 203 08 69</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 BDS Equipements. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

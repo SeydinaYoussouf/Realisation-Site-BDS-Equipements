@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Produits | Quincaillerie BDS Equipements</title>
+  <meta name="description" content="Découvrez notre catalogue de plus de 15 000 références : outillage, électricité, plomberie, quincaillerie, jardin et sécurité.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Quincaillerie BDS Equipements</span>
+          <span class="logo-tagline">Depuis 1985</span>
+        </div>
+      </a>
+      
+      <nav class="nav-desktop">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="produits.html" class="nav-link active">Produits</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="a-propos.html" class="nav-link">À propos</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+        <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"/>
+            <line x1="4" x2="20" y1="6" y2="6"/>
+            <line x1="4" x2="20" y1="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <nav class="nav-mobile" id="mobileMenu">
+      <a href="index.html" class="nav-link">Accueil</a>
+      <a href="produits.html" class="nav-link active">Produits</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="a-propos.html" class="nav-link">À propos</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <span class="section-badge">Notre catalogue</span>
+      <h1 class="section-title">Nos Produits</h1>
+      <p class="section-description">Plus de 15 000 références pour tous vos projets de bricolage et construction</p>
+    </div>
+  </section>
+
+  <!-- Categories Filter -->
+  <section class="section">
+    <div class="container">
+      <div class="products-categories">
+        <button class="product-category-btn active">
+          <div class="category-btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+            </svg>
+          </div>
+          <span class="category-btn-name">Outillage</span>
+        </button>
+        
+        <button class="product-category-btn">
+          <div class="category-btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 12h-5"/><path d="M7 12H2"/><path d="M12 2v20"/>
+            </svg>
+          </div>
+          <span class="category-btn-name">Électricité</span>
+        </button>
+        
+        <button class="product-category-btn">
+          <div class="category-btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/>
+            </svg>
+          </div>
+          <span class="category-btn-name">Plomberie</span>
+        </button>
+        
+        <button class="product-category-btn">
+          <div class="category-btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="1"/><path d="M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z"/>
+            </svg>
+          </div>
+          <span class="category-btn-name">Quincaillerie</span>
+        </button>
+        
+        <button class="product-category-btn">
+          <div class="category-btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/>
+            </svg>
+          </div>
+          <span class="category-btn-name">Jardin</span>
+        </button>
+        
+        <button class="product-category-btn">
+          <div class="category-btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/>
+            </svg>
+          </div>
+          <span class="category-btn-name">Sécurité</span>
+        </button>
+      </div>
+
+      <!-- Products Grid -->
+      <h2 class="section-title text-center mb-4">Produits phares</h2>
+      
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Perceuse sans fil">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Outillage électroportatif</span>
+            <h3 class="product-name">Perceuse-visseuse sans fil 18V</h3>
+            <div>
+              <span class="product-price">149,90 F Cfa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Coffret à cliquet">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Outillage à main</span>
+            <h3 class="product-name">Coffret à cliquet 72 pièces</h3>
+            <div>
+              <span class="product-price">89,90 F Cfa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Scie circulaire">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Outillage électroportatif</span>
+            <h3 class="product-name">Scie circulaire 1400W</h3>
+            <div>
+              <span class="product-price">199,00 F Cfa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Niveau laser">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Mesure</span>
+            <h3 class="product-name">Niveau laser croix vert</h3>
+            <div>
+              <span class="product-price">129,00 F Cfa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Câble électrique">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Électricité</span>
+            <h3 class="product-name">Câble H07V-U 2,5mm² - 100m</h3>
+            <div>
+              <span class="product-price">45,90 F Cfa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Raccords cuivre">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Plomberie</span>
+            <h3 class="product-name">Kit raccords cuivre 22mm</h3>
+            <div>
+              <span class="product-price">34,50 F Cfa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Casque de chantier">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Sécurité</span>
+            <h3 class="product-name">Casque de chantier ventilé</h3>
+            <div>
+              <span class="product-price">24,90 F Cfa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="/placeholder.svg?height=300&width=300" alt="Sécateur">
+          </div>
+          <div class="product-content">
+            <span class="product-category">Jardin</span>
+            <h3 class="product-name">Sécateur professionnel bypass</h3>
+            <div>
+              <span class="product-price">29,90 F Cfa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brands -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Nos partenaires</span>
+        <h2 class="section-title">Marques de confiance</h2>
+        <p class="section-description">Nous travaillons avec les meilleures marques du marché</p>
+      </div>
+      
+      <div class="brands-grid">
+        <img src="/placeholder.svg?height=40&width=120" alt="Bosch" class="brand-logo">
+        <img src="/placeholder.svg?height=40&width=120" alt="Makita" class="brand-logo">
+        <img src="/placeholder.svg?height=40&width=120" alt="DeWalt" class="brand-logo">
+        <img src="/placeholder.svg?height=40&width=120" alt="Stanley" class="brand-logo">
+        <img src="/placeholder.svg?height=40&width=120" alt="Facom" class="brand-logo">
+        <img src="/placeholder.svg?height=40&width=120" alt="Legrand" class="brand-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Vous ne trouvez pas ce que vous cherchez ?</h2>
+        <p class="cta-description">Notre équipe est à votre disposition pour vous aider à trouver le produit adapté à votre besoin.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn btn-light btn-lg">Contactez-nous</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">Quincaillerie BDS Equipements</span>
+              <span class="logo-tagline">Depuis 1985</span>
+            </div>
+          </a>
+          <p class="footer-description">Votre partenaire de confiance pour tous vos projets de bricolage et construction depuis plus de 40 ans.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Conseil expert</a></li>
+            <li><a href="services.html">Livraison</a></li>
+            <li><a href="services.html">Découpe sur mesure</a></li>
+            <li><a href="services.html">Devis gratuit</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>115 Yeumbeul Nord<br>Bene Barack</span>
+          </div>
+          <div class="contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>77 203 08 69</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Quincaillerie BDS Equipements. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
